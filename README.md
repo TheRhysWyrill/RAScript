@@ -1,6 +1,9 @@
 # RAScript
 Script to automate the process of building RetroArch for UWP compiling by downloading the RetroArch source, cores and additional DLL files.
 
+# Requirements
+The only application required for this script to work is 7zip.
+
 # Instructions
 1. Download RAScript and place it in a folder by itself.
 2. Run the bat file.
