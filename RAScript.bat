@@ -30,4 +30,4 @@ rd /q cores RetroArch-Win64
 del /q /f *.00* *.7z RetroArch-Source.zip "%~dp0RetroArch-master\pkg\msvc-uwp\RetroArch-msvc2019-UWP\cores\x64\.empty" "%~dp0RetroArch-master\pkg\msvc-uwp\RetroArch-msvc2019-UWP\cores\x64\cores\.empty"
 
 echo "Making A Backup"
-"C:\Program Files\7-Zip\7z.exe" a "E:\Is It Playable Stuff\RA Stuff\Cores From %DATE% Build.7z" "%~dp0RetroArch-master\pkg\msvc-uwp\RetroArch-msvc2019-UWP\cores\x64\cores"
+"C:\Program Files\7-Zip\7z.exe" a "%~dp0Cores Backup.7z" "%~dp0RetroArch-master\pkg\msvc-uwp\RetroArch-msvc2019-UWP\cores\x64\cores"
