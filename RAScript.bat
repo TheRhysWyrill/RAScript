@@ -1,10 +1,10 @@
 echo "Downloading RetroArch Source, Assets, Cores and DLLs."
 curl -L "https://github.com/libretro/RetroArch/archive/refs/heads/master.zip" --Output RetroArch-Source.zip
 curl https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_cores.7z --Output Cores.7z
-curl -L https://github.com/TheRhysWyrill/AutoRA/raw/main/Required%%20DLLs/DLLs.7z.001 --Output DLLs.7z.001
-curl -L https://github.com/TheRhysWyrill/AutoRA/raw/main/Required%%20DLLs/DLLs.7z.002 --Output DLLs.7z.002
-curl -L https://github.com/TheRhysWyrill/AutoRA/raw/main/Assets/Assets.7z --Output Assets.7z
-curl -L https://github.com/TheRhysWyrill/AutoRA/raw/main/Old%%20Cores/Old_Cores.7z --Output Old_Cores.7z
+curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Required%%20DLLs/DLLs.7z.001 --Output DLLs.7z.001
+curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Required%%20DLLs/DLLs.7z.002 --Output DLLs.7z.002
+curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Assets/Assets.7z --Output Assets.7z
+curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Old%%20Cores/Old_Cores.7z --Output Old_Cores.7z
 
 echo "Extracting Files To Correct Directories."
 "C:\Program Files\7-Zip\7z.exe" x RetroArch-Source.zip -o"%~dp0" *.* -r -y
