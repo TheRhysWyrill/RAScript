@@ -1,4 +1,4 @@
-# AutoRA
+# RAScript
 Script to automate the process of building RetroArch for UWP compiling by downloading the RetroArch source, cores and additional DLL files.
 
 # Instructions
