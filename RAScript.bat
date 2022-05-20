@@ -5,7 +5,7 @@ curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Required%%20DLLs/DLLs
 curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Required%%20DLLs/DLLs.7z.002 --Output DLLs.7z.002
 curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Assets/Assets.7z --Output Assets.7z
 curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Old%%20Cores/Old_Cores.7z --Output Old_Cores.7z
-curl -L https://github.com/GABO1423/Mupen64Plus-Next-XboxOne/releases/download/11%%2F05%%2F2022/mupen64plus_next_libretro.7z --Output Mupen64Plus.7z
+curl -L https://github.com/GABO1423/Mupen64Plus-Next-XboxOne/releases/latest/download/mupen64plus_next_libretro.7z --Output Mupen64Plus.7z
 
 echo "Extracting Files To Correct Directories."
 "C:\Program Files\7-Zip\7z.exe" x RetroArch-Source.zip -o"%~dp0" *.* -r -y
