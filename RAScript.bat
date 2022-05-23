@@ -5,7 +5,7 @@ for /F %%a in ('echo prompt $E ^| cmd') do (
 )
 SETLOCAL EnableDelayedExpansion
 
-echo !ESC![105;93m Downloading RetroArch and Core DLLs !ESC![0m
+echo !ESC![105;93m Downloading RetroArch and DLLs !ESC![0m
 
 curl -L https://github.com/libretro/RetroArch/archive/refs/heads/master.zip --Output RetroArch-Source.zip
 curl https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_cores.7z --Output Cores.7z
