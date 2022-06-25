@@ -13,7 +13,7 @@ curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Required%%20DLLs/DLLs
 curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Required%%20DLLs/DLLs.7z.002 --Output DLLs.7z.002
 curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Assets/Assets.7z --Output Assets.7z
 curl -L https://github.com/TheRhysWyrill/RAScript/raw/main/Old%%20Cores/Old_Cores.7z --Output Old_Cores.7z
-curl -L https://github.com/GABO1423/Mupen64Plus-Next-XboxOne/releases/latest/download/mupen64plus_next_libretro.7z --Output Mupen64Plus.7z
+curl -L https://github.com/GABO1423/Mupen64Plus-Next-XboxOne/raw/Series-Consoles/Pre-Compiled%20Builds/mupen64plus_next_libretro.7z --Output Mupen64Plus.7z
 curl -L https://github.com/GABO1423/ParaLLEl-N64-XboxOne/releases/latest/download/parallel_n64_libretro.7z --Output ParaLLEl64.7z
 curl -L https://github.com/GABO1423/Flycast-Libretro-Xbox-Builds/releases/latest/download/flycast_libretro.7z --Output Flycast.7z
 
